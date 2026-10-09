@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinco skills de Claude con su repo · ClaudeProfessor</title>
+<meta name="description" content="Cinco skills para Claude con el repositorio de cada una: marketing, ahorro de tokens, diseño, hablar como otro y la que fabrica las tuyas. Qué hace cada una, cómo se instala y en qué orden ponerlas.">
+<link rel="icon" href="icono.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icono-180.png">
+<meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme:light)">
+<meta name="theme-color" content="#0C1020" media="(prefers-color-scheme:dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ClaudeProfessor">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://claudeprofessor.page/cinco-skills-que-robar">
+<meta property="og:title" content="Cinco skills de Claude con su repo">
+<meta property="og:description" content="Las cinco están abiertas en GitHub: qué hace cada una, cómo se instala y en qué orden ponerlas.">
+<meta property="og:image" content="https://claudeprofessor.page/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="fuentes.css">
+<link rel="stylesheet" href="base.css">
+</head>
+<body>
+
+<div class="env estrecho"><a class="volver" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>claudeprofessor</a></div>
+
+<main class="env estrecho lectura">
+<header>
+  <p class="eyebrow">De la bóveda</p>
+  <h1>Cinco skills de Claude, <em>con su repo</em></h1>
+  <p class="entradilla">Una skill es una carpeta con instrucciones que Claude se lee cuando le hace falta. La gracia es que la carpeta no tienes que escribirla tú: hay gente que ya ha metido dentro su oficio entero y ha dejado el repositorio abierto. Estas son cinco, con la dirección de cada una, lo que cambia cuando la pones y el orden en que conviene bajarlas.</p>
+</header>
+
+<h2>Antes: qué es exactamente lo que copias</h2>
+<p>Una skill es una carpeta con un fichero <code>SKILL.md</code> dentro. Eso es todo lo que hay. Se instala así:</p>
+<ol>
+  <li>Descargas la carpeta del repositorio (el botón verde de GitHub, «Download ZIP», o un <code>git clone</code> si te manejas).</li>
+  <li>La dejas dentro de <code>.claude/skills/</code>. Si la pones en la carpeta del proyecto, vale solo para ese proyecto; si la pones en <code>~/.claude/skills/</code>, vale para todos.</li>
+  <li>Abres Claude Code y ya está. La carga él cuando el encargo que le haces encaja con lo que dice la descripción de la skill.</li>
+</ol>
+<p>No hay instalador, no hay cuenta que crear y no se paga nada por ellas.</p>
+
+<h2>1 · Marketing Skills</h2>
+<p>Para que sepa vender de verdad. En vez de escribirte un anuncio suelto cuando se lo pides, trae el oficio entero: campañas, correos, publicaciones y páginas de venta, todos los canales con el mismo criterio detrás y en una sola carpeta.</p>
+<pre>coreyhaines31/marketingskills</pre>
+
+<h2>2 · Caveman</h2>
+<p>La del coste. Le hace hablar como un cavernícola: contesta a tirones, sin preámbulo y sin repetirte lo que acabas de escribir. El mismo trabajo por una fracción de lo que te costaba. La misma respuesta, menos papel.</p>
+<pre>JuliusBrussee/caveman</pre>
+
+<h2>3 · UI UX Pro Max</h2>
+<p>La de diseño. Ese aire de plantilla con el que salen las pantallas hechas con IA —la misma tipografía, el mismo degradado, la misma estructura— se lo quita esta: tipografía, color y espacio puestos con criterio. Una pasada y ya está.</p>
+<pre>nextlevelbuilder/ui-ux-pro-max-skill</pre>
+
+<h2>4 · Coach</h2>
+<p>La rara de las cinco, y la que más gracia tiene. Eliges con quién quieres hablar —vale cualquiera que haya dejado rastro público, vivo o muerto—, Claude se pone su forma de hablar y de pensar, y le llevas tu asunto. Alex Hormozi, Tony Robbins, Elon Musk, Marco Aurelio.</p>
+<pre>coltonjosephdean-rgb/talk-to-anyone</pre>
+
+<h2>5 · Skill Creator</h2>
+<p>Esta es la de Anthropic y sirve para una cosa: fabricar la que te falta. Le cuentas el encargo que repites cada semana y te deja la carpeta montada, con su <code>SKILL.md</code> escrito. Es la que convierte lo que tú sabes en algo que Claude usa solo.</p>
+<pre>anthropics/skills</pre>
+
+<h2>En qué orden ponerlas</h2>
+<p>De una en una. Mete la primera, úsala una semana y solo entonces baja la siguiente: instaladas todas de golpe se pisan entre ellas y se comen el contexto sin que te enteres, que es lo que le pasa a casi todo el que se baja veinte de golpe. Si tienes que elegir una sola, la 5: en cuanto le hagas tu primera skill a medida, las demás te van a parecer poco.</p>
+
+<h2>Un aviso, y es del método</h2>
+<p>Cuatro de las cinco son de gente de la comunidad, no de Anthropic. Eso está bien —por eso son buenas y por eso son gratis— pero significa que nadie te garantiza nada: ábrele el <code>SKILL.md</code> y léelo antes de instalarla. Son instrucciones que Claude va a seguir, así que merece la pena saber qué le estás dando de comer.</p>
+
+<div class="siguiente">
+  <p>Si te montas una skill tuya con la 5, cuéntamelo por DM. Y por aquí sigue lo demás:</p>
+  <div class="pastillas">
+    <a class="pill oscuro" href="boveda.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>Bóveda</a>
+    <a class="pill neutro" href="https://instagram.com/claudeprofessor"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg>@claudeprofessor</a>
+  </div>
+</div>
+
+</main>
+
+<footer><div class="env estrecho" style="display:flex;justify-content:space-between;width:100%;gap:16px;flex-wrap:wrap">
+  <span>ClaudeProfessor · Hecho en Jaén</span>
+  <span><a href="https://instagram.com/claudeprofessor">Instagram</a> ·
+    <a href="index.html">Inicio</a></span>
+</div></footer>
+
+<script src="copiar.js" defer></script>
+
+</body>
+</html>
